@@ -641,7 +641,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: gaocher
   repo: gaocher.github.io
   client_id: 311ab8fac2ab2e7e5c5
