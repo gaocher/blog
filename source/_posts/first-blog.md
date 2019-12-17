@@ -8,7 +8,7 @@ categories:
 ---
 
 ## 主要链接
-1. Hexo安卓 https://hexo.io/docs/setup
+1. Hexo安装 https://hexo.io/docs/setup
 2. Hexo发布到GitHub https://hexo.io/docs/github-pages
 3. Next主题安装 https://github.com/theme-next/hexo-theme-next
 4. Next主题使用教程 http://theme-next.iissnan.com/
