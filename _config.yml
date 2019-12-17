@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Isaac Gao
+title: todo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Isaac Gao
+language: zh-CN
 timezone: ''
 
 # URL
@@ -66,6 +66,7 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
@@ -92,8 +93,10 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+  hexo-generate-feed
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -102,3 +105,10 @@ deploy:
   repo: git@github.com:gaocher/gaocher.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: master
+
+
+symbols_count_time:
+  symbols: true # 文章字数
+  time: true # 阅读时长
+  total_symbols: true # 所有文章总字数
+  total_time: true # 所有文章阅读中时长
